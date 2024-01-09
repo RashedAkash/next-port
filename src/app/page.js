@@ -22,20 +22,20 @@ const HomePage = () => {
           </p>
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link
-              href="/my-skills"
+              href="/skillls"
               className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
             >
               Learn more
             </Link>
             <Link
-              href="/my-projects"
+              href="/projects"
               className="rounded-[20px] group relative bg-transparent px-5 border border-white py-3 text-lg text-white max-w-[200px]"
             >
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20" />
               My projects
             </Link>
             <Link
-              href="/contact-me"
+              href="/contact"
               className="rounded-[20px] group relative bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
             >
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20" />
