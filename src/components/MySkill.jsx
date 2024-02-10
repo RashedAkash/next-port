@@ -8,7 +8,7 @@ import { Autoplay } from "swiper/modules";
 
 const MySkill = () => {
   return (
-    <div>
+    <div className="">
        <div
       style={{ backgroundImage: "url(/bg-2.jpg)" }}
       className="h-screen w-screen flex items-center justify-center bg-cover bg-center"
