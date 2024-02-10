@@ -1,6 +1,6 @@
 import { Socials } from "@/constants";
 import Image from "next/image";
-import React from "react";
+
 
 const Navbar = () => {
   return (
@@ -25,15 +25,15 @@ const Navbar = () => {
       </div>
 
       <div className="flex flex-row gap-5 mb-2">
-        {Socials.map((social) => (
-          <Image
-            key={social.name}
-            src={social.src}
-            alt={social.name}
-            width={28}
-            height={28}
-          />
-        ))}
+        <a href="https://github.com/RashedAkash">
+          <Image src="/git.png" alt="socialName" width={28} height={28} />
+        </a>
+        <a href="https://www.linkedin.com/in/rashed-hossain-1845762a4/">
+          <Image src="/in.jpeg" alt="socialName" width={28} height={28} />
+        </a>
+        <a href="https://www.facebook.com/akash.stk.3/">
+          <Image src="/facebook.svg" alt="socialName" width={28} height={28} />
+        </a>
       </div>
     </div>
   );
