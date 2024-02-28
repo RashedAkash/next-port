@@ -26,10 +26,28 @@ const Navbar = () => {
 
       <div className="flex flex-row gap-5 mb-2">
         <a href="https://github.com/RashedAkash">
-          <Image src="/git.png" alt="socialName" width={28} height={28} />
+          <Image
+            src="/git.png"
+            alt="socialName"
+            width={28}
+            height={28}
+            style={{
+              width: "100%",
+              height: "auto",
+            }}
+          />
         </a>
         <a href="https://www.linkedin.com/in/rashed-hossain-1845762a4/">
-          <Image src="/in.jpeg" alt="socialName" width={28} height={28} />
+          <Image
+            src="/in.jpeg"
+            alt="socialName"
+            width={28}
+            height={28}
+            style={{
+              width: "auto",
+              height: "auto",
+            }}
+          />
         </a>
         <a href="https://www.facebook.com/akash.stk.3/">
           <Image src="/facebook.svg" alt="socialName" width={28} height={28} />

@@ -4,7 +4,7 @@ import React from 'react';
 
 const HomePage = () => {
   return (
-     <main className="w-screen h-screen relative">
+    <main className="w-screen h-screen relative">
       <div
         className="flex items-center w-full h-full bg-cover bg-center"
         style={{ backgroundImage: "url(/main-bg.webp)" }}
@@ -18,7 +18,9 @@ const HomePage = () => {
             </span>
           </h1>
           <p className="text-gray-200 hidden md:block">
-            Highly motivated and very passionate JavaScript Developer with one years of experience in React js, Next js, Firebase, Tailwind CSS, Material UI, Node js, Express js, MongoDB
+            Highly motivated and very passionate JavaScript Developer with one
+            years of experience in React js, Next js, Firebase, Tailwind CSS,
+            Material UI, Node js, Express js, MongoDB
           </p>
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link
@@ -73,10 +75,23 @@ const HomePage = () => {
           alt="horse"
           height={300}
           width={300}
+          style={{
+            width: "100%",
+            height: "auto",
+          }}
           className="absolute right-55 top-40"
         />
 
-        <Image src="/cliff.webp" alt="cliff" width={480} height={480} />
+        <Image
+          src="/cliff.webp"
+          alt="cliff"
+          width={480}
+          height={480}
+          style={{
+            width: "auto",
+            height: "auto",
+          }}
+        />
       </div>
 
       <div className="absolute bottom-0 z-[5] w-full h-auto">
@@ -86,6 +101,10 @@ const HomePage = () => {
           width={2000}
           height={2000}
           className="w-full h-full"
+          style={{
+            width: "auto",
+            height: "auto",
+          }}
         />
       </div>
 
@@ -95,9 +114,12 @@ const HomePage = () => {
         height={300}
         width={300}
         className="absolute top-0 left-0 z-[10]"
+        style={{
+          width: "auto",
+          height: "auto",
+        }}
       />
     </main>
-    
   );
 };
 
